@@ -1,0 +1,4 @@
+# boot script for boot.scr
+wpl_prepare
+
+# generate with ./tools/mkimage -O linux -A arm -T script -n "boot script for booting from usb hard disk" -d wpl_prerate.txt boot.scr
